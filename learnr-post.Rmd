@@ -29,20 +29,20 @@ install.packages("learnr")
 Efter att du installerat, och startat om RStudio, kan du klicka på `File -> New File -> R Markdown...` och sedan välja `Interactive Tutorial` bland tillgängliga templates så får du ett skelett för en tutorial.
 
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width=800}
 library(knitr)
 include_graphics("learnr-start.png")
 ```
 
 När du får upp dokumentet kan du klicka på `Run Document`.
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width=800}
 include_graphics("run-doc.png")
 ```
 
 Det R Markdown-dokument som du ser ovan blir då renderat till en interaktiv tutorial i vilken man kan skriva R-kod.
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width=800}
 include_graphics("exec.png")
 ```
 
@@ -50,13 +50,13 @@ Som sagt finns det även stöd för att göra quiz, ge rätt svar, hints m.m.
 
 Vill du se en riktig implementation av det här finns den på vår Github för DS-programmet:
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width=800}
 include_graphics("gh.png")
 ```
 
 Och renderad ser det ut så här:
 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.width=800}
 include_graphics("render.png")
 ```
 
